@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="20dp"
+    tools:context=".activity_products">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/thi"
+        android:clickable="true"
+        android:onClick="onClick"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Face Masks"
+        android:layout_marginBottom="30dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/tho" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hand Sanitizer"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/th" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicines"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
